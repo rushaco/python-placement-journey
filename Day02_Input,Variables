@@ -1,0 +1,79 @@
+#variable and data types 
+a="rushant"
+b=1
+c=12.5
+d = "rusha"
+
+
+print("the value of A:",a)
+print("the value of B:",b)
+print("the value of C:",c)
+print("the value of D:",d)
+
+#to know what type of datatypes are used
+#syntax type()
+print("the datatype of A:",type(a))
+print("the datatype of B:",type(b))
+print("the datatype of C:",type(c))
+print("the datatype of D:",type(d))
+
+#to know the adreess where the value is stored in the computer memory 
+
+print("the address of A:",id(a))
+print("the address of B:",id(b))
+print("the address of C:",id(c))
+print("the address of D:",id(d))
+
+#typecasting use to change the datatype of specific variable 
+
+print("the float value of B:",float(b))
+print("the integer value of C:",int(c))
+
+
+#a simple program for execution 
+
+x=10
+y=20
+print("x+y:", x+y*2)
+
+x=int(input("enter your number:"))
+y=int(input("enter your number:"))
+print("answer is :" , x+y)
+
+a=input("enter your Name : ")
+x=float(input("enter your number : "))
+y=int(input("enter your number : "))
+print(a,end=" ")
+print(' your answer for "addition" is:',int(x+y))
+print(' your answer for "subtraction" is:',int(x-y))
+print(' your answer for "multiplication" is:',int(x*y))
+print(' your answer for division is:',int(x/y))
+
+
+
+#OUTPUT
+the value of A: rushant
+the value of B: 1
+the value of C: 12.5
+the value of D: rusha
+the datatype of A: <class 'str'>
+the datatype of B: <class 'int'>
+the datatype of C: <class 'float'>
+the datatype of D: <class 'str'>
+the address of A: 134686894119728
+the address of B: 134686907134664
+the address of C: 134686895491216
+the address of D: 134686894119872
+the float value of B: 1.0
+the integer value of C: 12
+x+y: 50
+enter your number:100
+enter your number:50
+answer is : 150
+enter your Name : rushant
+enter your number : 100.20
+enter your number : 20
+rushant  your answer for "addition" is: 120
+ your answer for "subtraction" is: 80
+ your answer for "multiplication" is: 2004
+ your answer for division is: 5
