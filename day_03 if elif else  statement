@@ -1,0 +1,30 @@
+a=int(input("enter value of A:"))
+b=int(input("enter value of B:"))
+c=int(input("enter value ofC:"))
+
+
+if a > b and b > c:
+    print("take another number")
+elif a < b and b < c:
+    print("condition satisfied")
+else:
+    print("numbers are mixed")
+
+#OUTPUT
+'''enter value of A:95
+    enter value of B:1
+    enter value ofC:66
+    numbers are mixed '''
+
+''' IMP notes 
+ Rule to remember (important)
+
+if → checks a condition
+
+elif → checks another condition
+
+else → no condition, runs when all above are false
+
+Use else only for “everything other than the if condition”.
+👉 Use elif when you need another condition. '''
+      
