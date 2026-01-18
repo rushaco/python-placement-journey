@@ -1,0 +1,28 @@
+#to print numbers till 5
+i = 1
+while i <= 5:
+    print(i)
+    i = i + 1
+
+ #OUTPUT
+1
+2
+3
+4
+5
+
+'''explaination
+1.i = 1 → start value
+2.i <= 5 → condition is True
+3.print(i) → prints the value
+4.i = i + 1 → increases i
+5.Loop checks the condition again
+6.Stops when i becomes 6'''
+
+#PASSWORD CHECK
+  password = ""
+while password != "python123":
+    password = input("Enter password: ")
+print("Access granted")
+
+  
